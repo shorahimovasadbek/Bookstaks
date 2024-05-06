@@ -1,0 +1,36 @@
+.login_content {
+  height: 100vh;
+  background-color: #232F40;
+}
+
+.login_button {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_button button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #FFF259;
+  color: #232F40;
+  border: none;
+  transition: all ease-in-out .5s;
+}
+
+.login_button button:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 10px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.ant-modal-title{
+  opacity: 0;
+}
+
+.modal_ant input:focus{
+  box-shadow: none;
+}
